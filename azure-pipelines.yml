@@ -3,7 +3,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 pool:
-  vmImage: ubuntu-latest
+  name: local
 
 resources:
 - repo: self
